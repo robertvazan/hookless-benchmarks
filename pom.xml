@@ -4,7 +4,7 @@
 
 	<groupId>com.machinezoo.hookless</groupId>
 	<artifactId>hookless-benchmarks</artifactId>
-	<version>0.0.1</version>
+	<version>0.11.1</version>
 	<packaging>jar</packaging>
 
 	<name>Hookless Benchmarks</name>
@@ -45,6 +45,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.machinezoo.hookless</groupId>
+			<artifactId>hookless</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<!-- JMH minimum for annotated Java benchmarks. -->
 		<dependency>
 			<groupId>org.openjdk.jmh</groupId>
