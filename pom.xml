@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.machinezoo.hookless</groupId>
-	<artifactId>hookless-benchmark</artifactId>
+	<artifactId>hookless-benchmarks</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>Hookless Benchmark</name>
+	<name>Hookless Benchmarks</name>
 	<url>https://hookless.machinezoo.com/</url>
-	<description>JMH benchmark for Hookless reactive library.</description>
+	<description>JMH benchmarks for Hookless reactive library.</description>
 	<inceptionYear>2020</inceptionYear>
 
 	<licenses>
@@ -32,9 +32,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:https://github.com/robertvazan/hookless-benchmark.git</connection>
-		<developerConnection>scm:git:https://github.com/robertvazan/hookless-benchmark.git</developerConnection>
-		<url>https://github.com/robertvazan/hookless-benchmark</url>
+		<connection>scm:git:https://github.com/robertvazan/hookless-benchmarks.git</connection>
+		<developerConnection>scm:git:https://github.com/robertvazan/hookless-benchmarks.git</developerConnection>
+		<url>https://github.com/robertvazan/hookless-benchmarks</url>
 	</scm>
 
 	<properties>
