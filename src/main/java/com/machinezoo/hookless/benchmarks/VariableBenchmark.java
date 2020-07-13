@@ -6,7 +6,8 @@ import com.machinezoo.hookless.*;
 
 public class VariableBenchmark {
 	private ReactiveVariable<String> variable = new ReactiveVariable<>("test");
-	@Benchmark public String observeRepeatedly() {
+	@Benchmark
+	public String observeRepeatedly() {
 		return variable.get();
 	}
 }
