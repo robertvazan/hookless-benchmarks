@@ -4,7 +4,7 @@ JMH benchmarks for [Hookless](https://hookless.machinezoo.com/), a reactive prog
 
 ## Results ##
 
-Results are saved in [results.json](results.json). They can be visualized on [jmh.morethan.io](https://jmh.morethan.io/).
+Results are saved in [results.json](results.json). They can be visualized on [jmh.morethan.io](https://jmh.morethan.io/?source=https://raw.githubusercontent.com/robertvazan/hookless-benchmarks/master/results.json).
 
 ## Contribute ##
 
