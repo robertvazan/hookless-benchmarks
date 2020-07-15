@@ -1,4 +1,4 @@
-# Hookless Benchmarks #
+# Hookless benchmarks #
 
 [JMH](https://openjdk.java.net/projects/code-tools/jmh/) benchmarks for [Hookless](https://hookless.machinezoo.com/), a reactive programming library for Java.
 
