@@ -6,6 +6,10 @@
 
 Results are saved in [results.json](results.json). They can be visualized on [jmh.morethan.io](https://jmh.morethan.io/?source=https://raw.githubusercontent.com/robertvazan/hookless-benchmarks/master/results.json).
 
+## Status ##
+
+This is a stub project. Thorough testing of Hookless would require many more benchmarks. Class-level progress is tracked using [stagean annotations](https://stagean.machinezoo.com/).
+
 ## Contribute ##
 
 Bug reports, feature suggestions, and pull requests are welcome. For major changes, open an issue first to discuss the change.
