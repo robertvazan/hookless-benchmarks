@@ -4,7 +4,9 @@ package com.machinezoo.hookless.benchmarks;
 import java.util.concurrent.*;
 import org.openjdk.jmh.annotations.*;
 import com.machinezoo.hookless.*;
+import com.machinezoo.stagean.*;
 
+@DraftCode("measure more operations")
 @State(Scope.Thread)
 public class VariableBenchmark {
 	/*

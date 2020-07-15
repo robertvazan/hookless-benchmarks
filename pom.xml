@@ -49,6 +49,11 @@
 			<artifactId>hookless</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.machinezoo.stagean</groupId>
+			<artifactId>stagean</artifactId>
+			<version>1.0.2</version>
+		</dependency>
 		<!-- JMH minimum for annotated Java benchmarks. -->
 		<dependency>
 			<groupId>org.openjdk.jmh</groupId>
