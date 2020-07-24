@@ -4,7 +4,7 @@
 
 ## Results ##
 
-Results are saved in [results.json](results.json). They can be visualized on [jmh.morethan.io](https://jmh.morethan.io/?source=https://raw.githubusercontent.com/robertvazan/hookless-benchmarks/master/results.json).
+Latest results are archived in [JMH JSON file](https://cdn.machinezoo.com/jmh/hookless-benchmarks.json). They can be visualized on [jmh.morethan.io](https://jmh.morethan.io/?source=https://cdn.machinezoo.com/jmh/hookless-benchmarks.json).
 
 ## Status ##
 
