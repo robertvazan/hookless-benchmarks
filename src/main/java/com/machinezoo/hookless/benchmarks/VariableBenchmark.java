@@ -4,6 +4,7 @@ package com.machinezoo.hookless.benchmarks;
 import java.util.concurrent.*;
 import org.openjdk.jmh.annotations.*;
 import com.machinezoo.hookless.*;
+import com.machinezoo.noexception.*;
 import com.machinezoo.stagean.*;
 
 @DraftCode("measure more operations")
@@ -13,14 +14,14 @@ public class VariableBenchmark {
 	 * Perform variable reads within reactive scope as otherwise the dependency tracking code would be skipped.
 	 */
 	private ReactiveScope scope = new ReactiveScope();
-	private ReactiveScope.Computation computation;
+	private CloseableScope closeable;
 	@Setup
 	public void setup() {
-		computation = scope.enter();
+		closeable = scope.enter();
 	}
 	@TearDown
 	public void teardown() {
-		computation.close();
+		closeable.close();
 	}
 	/*
 	 * Measure repeated reads of the same variable within one reactive scope.
