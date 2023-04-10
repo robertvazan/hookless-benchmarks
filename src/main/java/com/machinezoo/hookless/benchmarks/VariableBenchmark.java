@@ -3,8 +3,8 @@ package com.machinezoo.hookless.benchmarks;
 
 import java.util.concurrent.*;
 import org.openjdk.jmh.annotations.*;
+import com.machinezoo.closeablescope.*;
 import com.machinezoo.hookless.*;
-import com.machinezoo.noexception.*;
 import com.machinezoo.stagean.*;
 
 @DraftCode("measure more operations")

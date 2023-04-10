@@ -9,6 +9,7 @@ class Project(scaffold.Java):
     def pretty_name(self): return 'Hookless Benchmarks'
     def pom_description(self): return 'JMH benchmarks for Hookless reactive library.'
     def inception_year(self): return 2020
+    def jdk_version(self): return 17
     def jmh_benchmarks(self): return True
     def stagean_annotations(self): return True
     def is_library(self): return False
