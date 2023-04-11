@@ -62,7 +62,7 @@
 		<dependency>
 			<groupId>com.machinezoo.hookless</groupId>
 			<artifactId>hookless</artifactId>
-			<version>0.15.0</version>
+			<version>0.16.0</version>
 		</dependency>
 	</dependencies>
 
